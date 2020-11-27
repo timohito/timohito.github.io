@@ -1,0 +1,71 @@
+.body_index {
+    margin-top: 30px;
+    margin-left: 1em;
+    margin-right: 14pt;
+    margin-bottom: 15px;
+
+    padding: 10px 50px;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pereopr {
+    top: 0;
+    left: 15px;
+    right: -80px;
+    bottom: 20px;
+    z-index: 9;
+    color: #666;
+}
+
+.body_2 {
+    margin-top: 30px;
+    margin-left: 1em;
+    margin-right: 14pt;
+    margin-bottom: 15px;
+
+    padding: 10px 50px;
+
+
+    text-align: center;
+}
+
+.body_3 {
+    margin-top: 30px;
+    margin-left: 1em;
+    margin-right: 14pt;
+    margin-bottom: 15px;
+
+    padding: 10px 50px;
+
+
+    text-align: left;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.search_field {
+    margin-top: 15px;
+    margin-left: 20em;
+    margin-right: 20pt;
+    margin-bottom: 15px;
+}
+
+.buttons {
+   margin-left: 30px;
+   text-transform: uppercase;
+}
+
+.form-2 {
+   margin-top: 25px;
+}
+
+.carous {
+   margin-top: -650px;
+}
+
+
+
