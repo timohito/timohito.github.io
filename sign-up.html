@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+		(function (m, e, t, r, i, k, a) {
+			m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+			m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+		})
+			(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+		ym(70446505, "init", {
+			clickmap: true,
+			trackLinks: true,
+			accurateTrackBounce: true
+		});
+	</script>
+	<noscript>
+		<div><img src="https://mc.yandex.ru/watch/70446505" style="position:absolute; left:-9999px;" alt="" /></div>
+	</noscript>
+	<!-- /Yandex.Metrika counter -->
+	<title>Sign up</title>
+	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	<link rel="stylesheet" href="styles.css">
+	<script src="js/site.js"></script>
+</head>
+
+<body class="sign-up">
+
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+			<a class="navbar-brand" href="#">
+				<p><a href="index.html"><img src="cropped-iap_nl-2.png" alt=""></p>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+				aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="button">
+				<div class="collapse navbar-collapse" id="navbarText">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="trending.html">Блог</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="sign-up.html">Регистрация</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<form>
+				<div class="search-field">
+					<input type="text" class="form-control" name="search" id="formGroupExampleInput"
+						placeholder="Поиск">
+				</div>
+			</form>
+		</nav>
+
+		<form>
+			<div class="register-form">
+				<div class="form-group">
+					<label for="exampleInputEmail1">E-mail адресс</label>
+					<input type="email" class="form-control" name="email" id="exampleInputEmail1"
+						aria-describedby="emailHelp">
+					<small id="emailHelp" class="form-text text-muted">Мы никогда никому не передадим вашу электронную
+						почту.</small>
+				</div>
+				<div class="form-group">
+					<label for="exampleInputNick">Имя</label>
+					<input type="#" class="form-control" name="nick" id="exampleInputNickname">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputPassword1">Пароль</label>
+					<input type="password" class="form-control" name="pass" id="exampleInputPassword1">
+				</div>
+
+				<div class="form-group">
+					<label for="exampleInputPassword1">Повторите пароль</label>
+					<input type="password" class="form-control" name="confpass" id="exampleInputPassword1">
+				</div>
+				<div class="form-group form-check">
+					<input type="checkbox" class="form-check-input" name="newsletters" id="exampleCheck1">
+					<label class="form-check-label" for="exampleCheck1">Я хочу получать сообщения на свою электронную
+						почту</label>
+				</div>
+				<button type="submit" class="btn btn-primary">Подтвердить</button>
+			</div>
+		</form>
+	</div>
+
+</body>
+
+</html>

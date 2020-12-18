@@ -10,29 +10,29 @@ $(document).ready(function () {
       });
       if (!validateEmail(formData.get("email"))) {
         errorMessage(
-          "Something is wrong with email: " + formData.get("email")
+          "Что-то не так с ваашим E-mail: " + formData.get("email")
         );
         return;
       }
       if (formData.get("nick").length < 6) {
-        errorMessage("Too short nickname");
+        errorMessage("Слишком короткое имя");
         return;
       }
 	  if (formData.get("pass").length < 6){
-		  errorMessage("Too short password");
+		  errorMessage("Слишком короткий пароль");
         return;
 	  }
 	  if (formData.get("confpass") != formData.get("pass")){
-		  errorMessage("Passwords are different");
+		  errorMessage("Пароли не совпадают");
         return;
 	  }
       Swal.fire({
-        title: "Registration",
+        title: "Успешная регистрация",
         text:
-          "We've sent a confirmation letter to your email: " +
+        "Мы отправили письмо с подтверждением на вашу электронную почту: " +
           formData.get("email"),
         icon: "success",
-        confirmButtonText: "Cool",
+        confirmButtonText: "Отлично",
       });
     },
     false
@@ -46,7 +46,7 @@ function validateEmail(email) {
 
 function errorMessage(text) {
   Swal.fire({
-    title: "Ooops!",
+    title: "Что-то не так...",
     text: text,
     icon: "error",
     confirmButtonText: "Ok",

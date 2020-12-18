@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+      m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(70446505, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true
+    });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/70446505" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
+  <title>Trending</title>
+  <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="trending">
+
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">
+        <p><a href="index.html"><img src="cropped-iap_nl-2.png" alt=""></p>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="button">
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trending.html">Блог</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sign-up.html">Регистрация</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <form>
+        <div class="search-field">
+          <input type="text" class="form-control" name="search" id="formGroupExampleInput" placeholder="Поиск">
+        </div>
+      </form>
+    </nav>
+
+    <div class="news">
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action active">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">«Стыдно за соотечественников-крохоборов»: депутат Госдумы призвал россиян не мелочиться
+              из-за цен на бензин.</h5>
+            <small>1 day ago</small>
+          </div>
+          <p class="mb-1">Депутат Госдумы Святослав Гуревич раскритиковал россиян, возмущающихся из-за подъема цен
+            на топливо, и назвал их «крохоборами».
+          </p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Запорожская АЭС успешно перешла на уголь.</h5>
+            <small class="text-muted">1 day ago</small>
+          </div>
+          <p class="mb-1">Завершилась программа по деинновацциионизации крупнейшей украинской АЭС и переводе её на
+            альтернативные источники энергии. Отныне станция будет работать на угле. Градирни переоборудованы под
+            выхлопные трубы, реактор сдан на металлолом, а оставшийся уран вывезен и захоронён в Чернобыльской зоне.
+          </p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">В Госдуме призвали обязать россиян регистрировать технику Apple в МВД</h5>
+            <small class="text-muted">2 days ago</small>
+          </div>
+          <p class="mb-1">Депутат Государственной думы Евгений Фёдоров выступил с инициативой ввести обязательную
+            регистрацию всех устройств Apple, которые используются на территории Российской Федерации.
+          </p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Генеральный директор Coca-Cola признался, что в 70-х компания избежала банкротства
+              благодаря украденному рецепту советского «Байкала».</h5>
+            <small class="text-muted">2 days ago</small>
+          </div>
+          <p class="mb-1">Российский производитель напитков «Черноголовка» подал в суд на Coca-Cola Company за
+            нарушение авторских прав на рецепт безалкогольного напитка Coca-Cola. В иске утверждается, что состав и
+            вкус американской газировки идентичен российскому напитку «Байкал», производимому по той же технологии с
+            начала 1973 года. По результатам исследований, начиная с 1975 года, вкус Coca-Сola начал меняться в
+            сторону своего советского аналога.
+          </p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Центробанк установит курс доллара на уровне 1 килограмма рублей</h5>
+            <small class="text-muted">2 days ago</small>
+          </div>
+          <p class="mb-1">По итогам открытия торгов на Московской валютной бирже Центробанк принял решение ввести
+            новую методику расчёта обменного курса рубля по отношению к иностранным валютам. Теперь значение будет
+            исчисляться как отношение номинала к физической массе денег и составит 1 килограмм рублей на 100
+            долларов США. Реформа, введённая финансовым регулятором, призвана сократить волнения среди населения и
+            закрепить единый стандарт на бирже валюты.
+          </p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">В ответ на санкции Россия прекратит поставки сыра в Швейцарию</h5>
+            <small class="text-muted">3 days ago</small>
+          </div>
+          <p class="mb-1">Минпромторг объявил о введении ответных ограничительных мер против Швейцарии в ответ на
+            санкции против четырёх российских компаний, принимавших участие в строительстве железнодорожной части
+            Крымского моста. В ведомстве приняли решение ударить по наиболее уязвимому месту для европейского
+            государства и установить эмбарго на поставку отечественных сыров в Швейцарию.
+          </p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Джордж Сорос предложил свои услуги по демократизации Белоруссии</h5>
+            <small class="text-muted">3 days ago</small>
+          </div>
+          <p class="mb-1">Американский финансист и создатель множества благотворительных фондов Джордж Сорос намерен
+            лично обратиться к Александру Лукашенко с предложением о демократизации страны без свержения
+            действующего режима.
+          </p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Госдума обяжет учёных оформлять международные патенты на Российскую Федерацию</h5>
+            <small class="text-muted">3 days ago</small>
+          </div>
+          <p class="mb-1">Государственная дума приняла в первом чтении закон «Про обращение международно
+            признаваемых свидетельств интеллектуальной собственности в пользу государства», согласно которому
+            российские ученые будут обязаны оформлять международные патенты не на своё имя, а на государство. Взамен
+            РФ будет платить им до 25% поступающих отчислений.
+          </p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">«Однажды они разрешили нам вырубить целый заповедник»: китайский чиновник похвалил
+              россиян за щедрость</h5>
+            <small class="text-muted">3 days ago</small>
+          </div>
+          <p class="mb-1">Вышедший на пенсию китайский чиновник Хи Ксиан, возглавлявший в прошлом государственное
+            агентство по закупке ценных ресурсов и материалов, в интервью «Синьхуа» заявил, что считает россиян –
+            самым щедрым народом. Он отметил, что убедился в этом, когда вёл закупки леса в РФ.
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
